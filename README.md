@@ -14,12 +14,12 @@ Story App is a platform for writing, managing, and reading stories. This applica
 
 ## <a name="features"></a> Features
 
-- **Story List** — Displays all created stories
-- **Add Story** — Create a new story with cover, category, and keywords
-- **Story Detail** — View story info and chapters
-- **Edit Story** — Edit title, author, tags, cover, etc.
-- **Add Chapter** — Add chapters to each story
-- **List Chapter** — Manage and view list of chapters
+- **Story List** — Display all created stories in a clean table view
+- **Add Story** — Create a new story with title, author, synopsis, category, tags, cover image, and status (Publish/Draft)
+- **Story Detail** — View full story information including metadata and list of chapters
+- **Edit Story** — Update story fields: title, author, synopsis, category, tags, cover image, and status
+- **Add Chapter** — Add a new chapter with title and content to a story
+- **List Chapters** — View and manage all chapters under a story, with options to edit or delete
 
 ## <a name="libraries"></a> Libraries
 
