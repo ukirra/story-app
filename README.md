@@ -40,35 +40,35 @@ Story App is a platform for writing, managing, and reading stories. This applica
 
 ```bash
 story-app/
-├── client/                 # Frontend React + Vite + Tailwind
+├── client/                        # Frontend React + Vite + Tailwind
 │   ├── public/
 │   ├── src/
 │   │   ├── assets/         
 │   │   ├── data/           
-│   │   ├── pages/          # Main pages
+│   │   ├── pages/                 # Main pages
 │   │   │   ├── AddChapter.jsx
 │   │   │   ├── AddStory.jsx
 │   │   │   ├── EditStory.jsx
 │   │   │   ├── StoryDetail.jsx
 │   │   │   └── StoryList.jsx
-│   │   ├── App.jsx         # Root application components
-│   │   ├── main.jsx        # Entry point React
+│   │   ├── App.jsx                # Root application components
+│   │   ├── main.jsx               # Entry point React
 │   ├── index.html
 │   ├── tailwind.config.js
 │   └── vite.config.js
-├── server/                 # Backend (Node.js + Express)
+├── server/                        # Backend (Node.js + Express)
 │   ├── data/
-│   │   └── stories.json    # Data dummy 
+│   │   └── stories.json           # Data dummy 
 │   ├── models/
-│   │   └── Story.js        # Model 
+│   │   └── Story.js               # Model 
 │   ├── routes/
-│   │   └── stories.js      # Routing endpoint 
-│   ├── index.js            # Entry point backend
+│   │   └── stories.js             # Routing endpoint 
+│   ├── index.js                   # Entry point backend
 │   └── .env
 │
-├── index.html # Vite HTML template
-├── tailwind.config.js # Tailwind configuration
-└── vite.config.js # Vite configuration
+├── index.html                     # Vite HTML template
+├── tailwind.config.js             # Tailwind configuration
+└── vite.config.js                 # Vite configuration
 ```
 
 **Note:** The backend of this project is located in a separate repository and handles the REST API for story management.
