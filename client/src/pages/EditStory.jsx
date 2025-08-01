@@ -108,9 +108,8 @@ function EditStory() {
     }
   };
 
-  // === INI YANG DIUBAH ===
   const handleAddChapter = () => {
-    // Langsung navigasi tanpa harus save atau cek validasi
+
     navigate(`/story/${id}/add-chapter`);
   };
 
@@ -223,7 +222,7 @@ function EditStory() {
 
         <h3 className="text-3xl font-bold text-gray-900 mt-10 mb-4">Chapters</h3>
         <button
-          onClick={handleAddChapter} // Langsung navigasi tanpa validasi apapun
+          onClick={handleAddChapter} 
           className="mb-4 px-4 py-2 text-sm rounded-full bg-violet-600 text-white hover:bg-violet-700 transition"
         >
           + New Chapter
